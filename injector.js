@@ -1,5 +1,4 @@
 // IIFE
-const scriptTag = document.createElement('script');
 (document => {
   const source = 'https://cdn.jsdelivr.net/gh/ctsstc/a-better-canvas@master/canvas%20discussion%20enhancer.js';
 
@@ -12,4 +11,4 @@ const scriptTag = document.createElement('script');
   return {
     execute
   };
-})().execute();
+})(document).execute();
